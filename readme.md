@@ -1,43 +1,32 @@
-# Backend Java: Arrays
+# Opdrachtbeschrijving - Arrays
 
 ## Inleiding
-
-Deze repository bevat oefeningen voor het werken met Arrays in Java.
-Neem eerst het hoofdstuk over arrays door.
-
-Je gaat oefenen met het ophalen van values uit een Array. Dit kan zowel met hardcoded indexeren en met loops.
-
-Je ziet in src/main/java een Main class. Zorg dat in deze class de juiste String worden geprint.
+Je gaat oefenen met simpele array-constructies en het ophalen van waardes. Dit ga je zowel handmatig doen als door gebruik te maken van loops.
 
 ## Voor je begint
+Je hebt IntelliJ IDEA en de JDK (Java Development Kit) versie 17 of hoger nodig - deze heb je beiden via de instructies op EdHub geïnstalleerd.
 
-Voorwaarden voor deze opdracht:
-1. Java Development Kit, versie 17
-2. IntelliJ IDEA
+### 🟩 Code runnen (vanuit IntelliJ)
+Klik op de groene play-knop voor de main-methode en kies 'Run...'.
 
-### Uitvoeren met Maven
+### 🟨 Testen uitvoeren (vanuit IntelliJ)
+Klik op de groene play-knop voor de MainTest-class in src/test/java en kies 'Run 'MainTest''.
 
-Voer de opdracht code uit met:
+### ⬛ Code runnen (met Maven)
+
+Of, als je bekend bent met de terminal, kun je de applicatie runnen met:
 
 ```shell
 ./mvnw clean compile exec:java
 ```
 
-of
+of 
 
 ```shell
 mvnw.cmd clean compile exec:java
 ```
 
-### Uitvoeren vanuit Intellij
-
-Groene play-knop voor de `main` method klikken en 'Run...' kiezen.
-
-### Testen uitvoeren vanuit Intellij
-
-Groene play-knop voor de `MainTest` class in src/test/java klikken en 'Run 'MainTest'' kiezen.
-
 ## Opdracht
+In de map `src/main/java` tref je de `Main`-class aan. Hierin vind je ook de uitleg en verdere instructies van de opdracht. Zorg ervoor dat de juiste strings in de terminal worden geprint.
 
-Doorloop de opgaves en zorg dat de code compileert en dat de testen slagen.
-
+Om te valideren dat je klaar bent, kun je de testen draaien. In `src/test/java` vind je een class met de naam `MainTest`. Links daarvan staat een groen pijltje die je kunt gebruiken om te compileren en te testen. Onderin het scherm komt het resultaat te staan. Zijn niet alle testen groen? Kijk dan goed naar de uitslag van de test om te zien wat er nog mist. Door aanpassingen te maken in de code, kun je ervoor zorgen dat de testen één voor één slagen!
